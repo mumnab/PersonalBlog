@@ -13,8 +13,8 @@ public class PersonalBlogApplication {
 		SpringApplication.run(PersonalBlogApplication.class, args);
 	}
 
-	@GetMapping
-	public String hello() {
+	@GetMapping("/test")
+	public String test() {
 		return "hello mumna";
 	}
 }
