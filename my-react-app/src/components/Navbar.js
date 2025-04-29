@@ -17,9 +17,9 @@ function Navbar() {
     <nav style={styles.nav}>
       <h2 style={styles.logo}>{greeting()}</h2>
       <ul style={styles.navLinks}>
-        <li><a href="/home">Home</a></li>
-        <li><a href="/thoughts">Thoughts</a></li>
-        <li><a href="/photos">Photos</a></li>
+        <li><a href="#/home">Home</a></li>
+        <li><a href="#/thoughts">Thoughts</a></li>
+        <li><a href="#/photos">Photos</a></li>
       </ul>
     </nav>
   );
